@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hatch-landing-page/static/css/main.f5aed1e7.css",
-    "main.js": "/hatch-landing-page/static/js/main.5c3ee9f1.js",
+    "main.js": "/hatch-landing-page/static/js/main.a257c17d.js",
     "static/js/787.d3bb989e.chunk.js": "/hatch-landing-page/static/js/787.d3bb989e.chunk.js",
     "static/media/hero-image.png": "/hatch-landing-page/static/media/hero-image.09e421ce83cda45c86ee.png",
     "static/media/TT Commons Black.otf": "/hatch-landing-page/static/media/TT Commons Black.bf24a4dd45a349ff9cb2.otf",
@@ -18,11 +18,11 @@
     "static/media/wavy-lines-icon.svg": "/hatch-landing-page/static/media/wavy-lines-icon.8314ca20f62ed0937dea9de570456b96.svg",
     "index.html": "/hatch-landing-page/index.html",
     "main.f5aed1e7.css.map": "/hatch-landing-page/static/css/main.f5aed1e7.css.map",
-    "main.5c3ee9f1.js.map": "/hatch-landing-page/static/js/main.5c3ee9f1.js.map",
+    "main.a257c17d.js.map": "/hatch-landing-page/static/js/main.a257c17d.js.map",
     "787.d3bb989e.chunk.js.map": "/hatch-landing-page/static/js/787.d3bb989e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f5aed1e7.css",
-    "static/js/main.5c3ee9f1.js"
+    "static/js/main.a257c17d.js"
   ]
 }
