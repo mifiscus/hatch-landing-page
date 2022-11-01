@@ -1,0 +1,12 @@
+.footer-container {
+    background: var(--hdc-navy);
+    color: var(--hdc-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.footer-logo {
+    height: 25px;
+}

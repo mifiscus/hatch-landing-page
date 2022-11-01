@@ -1,0 +1,85 @@
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.hero-image {
+    width: 1920px;
+}
+
+.hero-content {
+    position: absolute;
+    top: 20%;
+    left: 14%;
+    width: 350px;
+    color: var(--hdc-navy);
+}
+
+.hero-content h1 {
+    font-weight: 500;
+    font-size: 60px;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 20px 0;
+}
+
+.hero-content button {
+    color: var(--hdc-white);
+    background-color: var(--hdc-blue);
+    border: none;
+    border-radius: 3px;
+    padding: 16px 32px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////
+//
+// RESPONSIVE
+//
+////////////////////////////////////////////////////////////////////////////////////*/
+
+@media (max-width: 479px) {
+    .hero-image {
+        transform: translate(-350px, -300px);
+    }
+    .hero-container {
+        height: 750px;
+    }
+    .hero-content {
+        top: 15%;
+        left: 10%;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .hero-image {
+        transform: translate(-500px);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .hero-image {
+        transform: translate(-400px);
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .hero-image {
+        transform: translate(-300px);
+    }
+}
+
+@media (min-width: 1200px) {
+    .hero-image {
+        transform: translate(0px);
+    }
+}

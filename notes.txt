@@ -1,0 +1,106 @@
+brainstorming notes:
+    - hero seems fairly straightforward, just make sure picture looks good at all responsive stages
+
+    - top "navbar" should become transparent with just logo visible after scrolling down
+        - smooth transition
+
+    - inspect elements of hatch.co website, then create color palette variables in index.css (or what
+    ever the topmost css file is)
+
+    - 3 column layout should become vertical upon narrowing viewport width
+
+    - 3 column layout should be its own component maybe with individual column components
+
+    - App.js should just contain the router with the "/home" route that renders the landing page
+        - add in comments for other potential routes
+
+    extras that would be nice:
+        - columns under "Your heading here" should be a changeable parameter for number of columns
+
+        - add a footer at the bottom
+            - something super simple, maybe just a logo like the navbar
+
+file structure:
+    src/
+        App.js
+        index.js
+        .css files
+        pages/
+            Home.jsx
+            .
+            .
+            // further page documents
+            .
+            .
+        components/
+            Hero.jsx
+            Columns.jsx
+            .
+            .
+            // further components
+            .
+            .
+        assets/
+            hero-image.png
+            sunrise-alarm.svg
+            sunshine-heart-icon.svg
+            wavy-lines-icon.svg
+            fonts/
+                .
+                .
+                .
+
+data (from https://www.hatch.co/):
+    font-family: "TT Commons",
+
+    colors: [
+        --hdc-white: #fff;
+        --hdc-blue: #596ea1;
+        --hdc-navy: #13294b;
+        --hdc-gray-80: #4d596d;
+    ],
+
+    responsive-ranges(px): [
+        [0, 479],
+        [480, 767]
+        [768, 1023],
+        [1024, 1199],
+        [1200, 1999],
+        [2000, inf]
+    ]
+        note: probably just make UI handle no larger than 1920 width, more is too much
+
+time spent:
+    - document setup (15 minutes)
+        - structuring files
+        - setting global CSS variables
+        - importing media
+
+    - hero component (1 hour)
+        - encountered obstacle 1
+
+    - navbar component (15 minutes)
+
+    - columns (1 hour 15 min)
+        - encountered obstacle 2
+
+    - testing with Chrome, Firefox, Edge and mobile (5 minutes)
+
+obstacles:
+    1) can't get hero image to maintain aspect ratio and overflow when screen size changes
+        - I have made banners like this before but the image used was already bigger
+          than the viewport, so overflowing the parent container was automatic
+        - This image is supposed to exactly fit the viewport, so you can't quite force
+          an overflow
+
+        solution: 
+            - hard code width that is unrelated to viewport size
+            - use @media screen sizes to change coded width to make hero responsive
+
+    2) columns need to be repsonsive, so layout should transition into row layout when
+       a certain screen width is reached
+
+        solution:
+            - use display: block upon reaching smaller screen width, then this shifts
+              horizontal object layout into vertical
+    

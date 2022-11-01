@@ -1,13 +1,97 @@
+:root {
+	--hdc-white: #fff;
+	--hdc-blue: #596ea1;
+	--hdc-navy: #13294b;
+	--hdc-gray: #f0efec;
+
+	--font-weight-bold: 600;
+    --font-weight-semi-bold: 500;
+    --font-weight-regular: 400;
+    --font-weight-extra-light: 100;
+
+	--font-body: 'TT Commons',Arial,sans-serif;
+    --font-display: 'TT Commons',var(--font-body);
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: 
+		'TT Commons',
+		Arial,
+		-apple-system,
+		BlinkMacSystemFont,
+		Segoe UI,
+		Roboto,
+		Oxygen,
+		Ubuntu,
+		Cantarell,
+		Fira Sans,
+		Droid Sans,
+		Helvetica Neue,
+		sans-serif;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+
+@font-face {
+	font-family: 'TT Commons';
+	font-weight: 100;
+	src: url('./assets/fonts/TT-Commons/TT Commons Thin.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'TT Commons';
+	font-weight: 200;
+	src: url('./assets/fonts/TT-Commons/TT Commons ExtraLight.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'TT Commons';
+	font-weight: 300;
+	src: url('./assets/fonts/TT-Commons/TT Commons Light.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'TT Commons';
+	font-weight: 400;
+	src: url('./assets/fonts/TT-Commons/TT Commons Regular.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'TT Commons';
+	font-weight: 500;
+	src: url('./assets/fonts/TT-Commons/TT Commons Medium.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'TT Commons';
+	font-weight: 600;
+	src: url('./assets/fonts/TT-Commons/TT Commons DemiBold.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'TT Commons';
+	font-weight: 700;
+	src: url('./assets/fonts/TT-Commons/TT Commons Bold.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'TT Commons';
+	font-weight: 800;
+	src: url('./assets/fonts/TT-Commons/TT Commons ExtraBold.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'TT Commons';
+	font-weight: 900;
+	src: url('./assets/fonts/TT-Commons/TT Commons Black.otf') format('opentype');
 }

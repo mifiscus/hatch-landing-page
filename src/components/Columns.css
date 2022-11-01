@@ -1,0 +1,99 @@
+.columns-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--hdc-navy);
+    margin: 0 100px;
+}
+
+.columns-main h2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.columns-container {
+    display: grid;
+    width: 100%;
+    gap: 20px;
+}
+
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--hdc-gray);
+    color: var(--hdc-navy);
+    height: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 100ms ease-in-out;
+}
+
+.column:hover {
+    transform: scale(1.05);
+
+}
+
+.column p {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////
+//
+// RESPONSIVE
+//
+////////////////////////////////////////////////////////////////////////////////////*/
+
+@media (max-width: 479px) {
+    .columns-main {
+        margin: 0 20px;
+    }
+    .columns-container {
+        display: block;
+    }
+
+    .column { 
+        margin: 20px 0;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .columns-main {
+
+        margin: 0 30px;
+    }
+
+    .columns-container {
+        display: block;
+    }
+
+    .column { 
+        margin: 20px 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .columns-main {
+
+        margin: 0 50px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .columns-main {
+
+        margin: 0 80px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .columns-main {
+        margin: 0 100px;
+    }
+}
