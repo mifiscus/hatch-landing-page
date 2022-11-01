@@ -12,7 +12,7 @@ function App() {
 				<Navbar />
 				<div className='page-container'>
 					<Routes>
-						<Route exact path='/' element={ <Home /> } />
+						<Route exact path='/hatch-landing-page' element={ <Home /> } />
 						{/* 
 							.
 							.

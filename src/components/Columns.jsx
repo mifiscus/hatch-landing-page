@@ -12,9 +12,9 @@ const Columns = () => {
 
     // content objects 
     const content = [
-        { icon: wavesIcon, text: 'Text', link: '/' },
-        { icon: sunHeartIcon, text: 'Text', link: '/' },
-        { icon: sunriseIcon, text: 'Text', link: '/' }
+        { icon: wavesIcon, text: 'Text', link: '/hatch-landing-page' },
+        { icon: sunHeartIcon, text: 'Text', link: '/hatch-landing-page' },
+        { icon: sunriseIcon, text: 'Text', link: '/hatch-landing-page' }
     ]
 
     // Update column template CSS according to # of items in content array
