@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/hatch-landing-page/static/css/main.f5aed1e7.css",
+    "main.js": "/hatch-landing-page/static/js/main.5c3ee9f1.js",
+    "static/js/787.d3bb989e.chunk.js": "/hatch-landing-page/static/js/787.d3bb989e.chunk.js",
+    "static/media/hero-image.png": "/hatch-landing-page/static/media/hero-image.09e421ce83cda45c86ee.png",
+    "static/media/TT Commons Black.otf": "/hatch-landing-page/static/media/TT Commons Black.bf24a4dd45a349ff9cb2.otf",
+    "static/media/TT Commons ExtraBold.otf": "/hatch-landing-page/static/media/TT Commons ExtraBold.f13d3de3b576fa414e34.otf",
+    "static/media/TT Commons Bold.otf": "/hatch-landing-page/static/media/TT Commons Bold.3d86f1a76afba3f39aee.otf",
+    "static/media/TT Commons DemiBold.otf": "/hatch-landing-page/static/media/TT Commons DemiBold.d35b2502dc5c5dcfc1ac.otf",
+    "static/media/TT Commons Medium.otf": "/hatch-landing-page/static/media/TT Commons Medium.fec750d69d7de2bf5efa.otf",
+    "static/media/TT Commons Regular.otf": "/hatch-landing-page/static/media/TT Commons Regular.ae5bbab36817d6276df8.otf",
+    "static/media/TT Commons Light.otf": "/hatch-landing-page/static/media/TT Commons Light.e2029bfb697090e44385.otf",
+    "static/media/TT Commons ExtraLight.otf": "/hatch-landing-page/static/media/TT Commons ExtraLight.568fc95fa6b77c07f236.otf",
+    "static/media/TT Commons Thin.otf": "/hatch-landing-page/static/media/TT Commons Thin.671a2645b3883e19479c.otf",
+    "static/media/sunrise-alarm.svg": "/hatch-landing-page/static/media/sunrise-alarm.18d974fab8d6eb4417532540872ab753.svg",
+    "static/media/sunshine-heart-icon.svg": "/hatch-landing-page/static/media/sunshine-heart-icon.7283b34764bee498c217a7b31bdf96f4.svg",
+    "static/media/wavy-lines-icon.svg": "/hatch-landing-page/static/media/wavy-lines-icon.8314ca20f62ed0937dea9de570456b96.svg",
+    "index.html": "/hatch-landing-page/index.html",
+    "main.f5aed1e7.css.map": "/hatch-landing-page/static/css/main.f5aed1e7.css.map",
+    "main.5c3ee9f1.js.map": "/hatch-landing-page/static/js/main.5c3ee9f1.js.map",
+    "787.d3bb989e.chunk.js.map": "/hatch-landing-page/static/js/787.d3bb989e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5aed1e7.css",
+    "static/js/main.5c3ee9f1.js"
+  ]
+}
